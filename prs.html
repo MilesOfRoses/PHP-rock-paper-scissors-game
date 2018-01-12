@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Play Paper Rock Scissors!</title>
+  <meta name="description" content="Paper Rock Scissors">
+  <meta name="keywords" content="Paper Rock Scissors">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Rock Paper Scissors</h1>
+    <p>Choose your weapon!</p>
+    <form action="prs.php" method="get">
+      <label>
+        <input type="radio" name="player" value="r"> 
+        <img src="rock-icon.png" width="100px">
+      </label>
+
+      <label>
+        <input type="radio" name="player" value="p"> 
+        <img src="paper-icon.png" width="100px">
+      </label>
+
+      <label>
+        <input type="radio" name="player" value="s">  
+        <img src="scissors-icon.png" width="100px">
+      </label>
+      
+      <div id="play"><input type="submit" value="Play"></div>
+    </form>
+  </div>
+</body>
+</html>

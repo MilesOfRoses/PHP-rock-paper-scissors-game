@@ -1,0 +1,64 @@
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #0ff;
+}
+body{
+	background-color: #c70039;
+	font-family: sans-serif;
+}
+
+h1, p{
+	text-align: center;
+}
+
+label img {
+	margin: 20px;
+}
+
+#wrapper{
+	background-color: white;
+	width: 450px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+#play{
+	text-align: center;
+}
+
+input[type="submit"], #again {
+	background-color: #ffc300; 
+    width: 200px; /* width of image */
+    height: 50px; /* height of image */
+    border: 0;
+    font-size: 25px;
+    cursor:pointer;
+    border-radius: 15px;
+}
+
+#again{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+#php img{
+	width: 220px;
+}
