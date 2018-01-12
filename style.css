@@ -55,8 +55,8 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: black;
+.link{
+	color: blue;
 }
 
 #php img{
